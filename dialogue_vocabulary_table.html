@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialogue Vocabulary</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'SimHei', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #f8f9fa;
+        }
+
+        th {
+            padding: 16px 12px;
+            text-align: left;
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        td {
+            padding: 14px 12px;
+            border-bottom: 1px solid #e8eaf0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        tr:hover {
+            background-color: #f8f9fa;
+            transition: background-color 0.2s ease;
+        }
+
+        td:nth-child(1) {
+            font-weight: 500;
+            color: #667eea;
+            font-size: 16px;
+            font-family: 'SimSun', serif;
+        }
+
+        td:nth-child(2) {
+            color: #764ba2;
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        td:nth-child(3) {
+            color: #666;
+        }
+
+        /* 交替行颜色 */
+        tbody tr:nth-child(even) {
+            background-color: #fafbfc;
+        }
+
+        /* 最后一行边框 */
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 20px;
+            }
+
+            .table-wrapper {
+                padding: 15px;
+            }
+
+            th, td {
+                padding: 12px 8px;
+                font-size: 13px;
+            }
+
+            td:nth-child(1) {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>【VOCABULARY】Dialogue Words</h1>
+            <p>Key vocabulary from the formal meeting dialogue</p>
+        </div>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Chinese</th>
+                        <th>Pinyin</th>
+                        <th>Definition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>你好</td>
+                        <td>nǐhǎo</td>
+                        <td>hello, hi</td>
+                    </tr>
+                    <tr>
+                        <td>你</td>
+                        <td>nǐ</td>
+                        <td>you</td>
+                    </tr>
+                    <tr>
+                        <td>叫</td>
+                        <td>jiào</td>
+                        <td>to call, to be called</td>
+                    </tr>
+                    <tr>
+                        <td>什么</td>
+                        <td>shénme</td>
+                        <td>what</td>
+                    </tr>
+                    <tr>
+                        <td>名字</td>
+                        <td>míngzi</td>
+                        <td>name</td>
+                    </tr>
+                    <tr>
+                        <td>我</td>
+                        <td>wǒ</td>
+                        <td>I</td>
+                    </tr>
+                    <tr>
+                        <td>安</td>
+                        <td>Ān</td>
+                        <td>Ann</td>
+                    </tr>
+                    <tr>
+                        <td>是</td>
+                        <td>shì</td>
+                        <td>to be, is, are</td>
+                    </tr>
+                    <tr>
+                        <td>哪国人</td>
+                        <td>nǎ guó rén</td>
+                        <td>which country are you from</td>
+                    </tr>
+                    <tr>
+                        <td>美国人</td>
+                        <td>Měiguó rén</td>
+                        <td>American person</td>
+                    </tr>
+                    <tr>
+                        <td>你呢</td>
+                        <td>nǐ ne</td>
+                        <td>What about you?</td>
+                    </tr>
+                    <tr>
+                        <td>中国人</td>
+                        <td>Zhōngguó rén</td>
+                        <td>Chinese person</td>
+                    </tr>
+                    <tr>
+                        <td>很</td>
+                        <td>hěn</td>
+                        <td>very</td>
+                    </tr>
+                    <tr>
+                        <td>高兴</td>
+                        <td>gāoxing</td>
+                        <td>happy</td>
+                    </tr>
+                    <tr>
+                        <td>认识</td>
+                        <td>rènshi</td>
+                        <td>to meet (someone for the first time)</td>
+                    </tr>
+                    <tr>
+                        <td>也</td>
+                        <td>yě</td>
+                        <td>also</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
